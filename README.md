@@ -1,2 +1,3 @@
 # goit-markup-hw-02
-ДЗ 02 WebStudio
+
+HW-02 Цвет и текст для WebStudio
