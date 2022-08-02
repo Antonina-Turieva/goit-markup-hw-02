@@ -59,6 +59,20 @@ body {
     color: var(--accent-color);
 }
 
+/* Контакты */
+
+.contacts a.link {
+    color: var(--primary-text-color);
+}
+
+.contacts a.link:hover,
+.contacts a.link:focus,
+.contacts a.link:active {
+    color: var(--accent-color);
+
+}
+
+
 /* Hero */
 .hero-title {
     color: var(--title-text-color);
