@@ -16,6 +16,8 @@ accent color #2196F3
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+
 
 }
 
@@ -97,3 +99,26 @@ button {
     color: var(--primary-text-color);
     background-color: var(--accent-color);
 } */
+
+/* Портфолио */
+
+.filter button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-background-color);
+}
+.filter button:active,
+.filter button:hover,
+.filter button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Примеры работ */
+
+.works .link .title {
+    color: var(--title-text-color);
+}
+
+.works .link {
+    color: var(--primary-text-color);
+}
