@@ -229,9 +229,16 @@ address .link {
 
 /* Портфолио */
 
+
 .filter button {
     color: var(--title-text-color);
     background-color: var(--secondary-background-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
 }
 
 .filter button:active,
@@ -243,10 +250,32 @@ address .link {
 
 /* Примеры работ */
 
-.works .link .title {
-    color: var(--title-text-color);
-}
-
 .works .link {
     color: var(--primary-text-color);
+    font-weight: 400;
+}
+
+.works .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.works .item {    
+    font-size: 16px;
+    line-height: 1.88;
+    
+}
+
+.works .description {
+    color: var(--primary-white-color);
+    background-color: tomato;
+
+    font-size: 18px;
+    line-height: 1.56;
+}
+
+.works .title {
+
 }
