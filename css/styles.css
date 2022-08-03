@@ -217,8 +217,8 @@ address .link {
   
 }
 
-p.socials,
-p.form {
+.social .label,
+.form .label {
     color: var(--primary-white-color);
    
     font-weight: 700;
